@@ -6,15 +6,17 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Este projeto é uma API RESTful desenvolvida com Node.js, que permite o gerenciamento de clientes, produtos e usuários, com autenticação via JWT, caching com invalidação automática e testes automatizados.",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.14.1",
@@ -23,5 +25,13 @@
   "devDependencies": {
     "jest": "^30.0.3",
     "supertest": "^7.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielfmoreno/desafio-backend-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrielfmoreno/desafio-backend-api/issues"
+  },
+  "homepage": "https://github.com/gabrielfmoreno/desafio-backend-api#readme"
 }
